@@ -12,9 +12,9 @@ int main() {
   }
   bool truthTeller = true;
   while (truthTeller){
-    cout << "Enter a number between 1 and 10:";
+    cout << "Enter a number between 1 and 100:";
     cin >> sum;
-    if ( sum >= 1 && sum <= 10){
+    if ( sum >= 1 && sum <= 100){
         truthTeller = false;
     }
   }
